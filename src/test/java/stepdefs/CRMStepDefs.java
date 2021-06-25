@@ -49,6 +49,7 @@ public void user_is_on_home_page() {
 @Then("Close browser")
 public void close_browser() {
     // Write code here that turns the phrase above into concrete actions
+	System.out.println("Closed the browser");
     driver.close();
 }
 
